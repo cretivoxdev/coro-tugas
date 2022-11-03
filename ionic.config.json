@@ -1,0 +1,7 @@
+{
+  "name": "corow",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
