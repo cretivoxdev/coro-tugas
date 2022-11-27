@@ -1,0 +1,78 @@
+[
+    {
+        "self_diagnos" : {
+            "gerd_akut": [
+                {
+                    "gejala": "mual",
+                    "value": "p1",
+                    "isChecked": false
+                },
+                {
+                    "gejala": "sering sendawa",
+                    "value": "p1",
+                    "isChecked": false
+                },
+                {
+                    "gejala": "tubuh lemas",
+                    "value": "p1",
+                    "isChecked": false
+                },
+                {
+                    "gejala": "nafsu makan menurun",
+                    "value": "p1",
+                    "isChecked": false
+                },
+                {
+                    "gejala": "rasa mengganjal di tenggorokan",
+                    "value": "p1",
+                    "isChecked": false
+                },
+                {
+                    "gejala": "muntah",
+                    "value": "p1",
+                    "isChecked": false
+                },
+                {
+                    "gejala": "kembung",
+                    "value": "p1",
+                    "isChecked": false
+                }
+            ] ,
+            "gerd_kronis" : [
+                {
+                    "gejala" : "tubuh lemas",
+                    "value" : "p2",
+                    "isChecked": false
+                },
+                {
+                    "gejala" : "sakit perut bagian atas",
+                    "value" : "p2",
+                    "isChecked": false
+                },
+                {
+                    "gejala" : "bab berdarah",
+                    "value" : "p2",
+                    "isChecked": false
+                },
+                {
+                    "gejala" : "muntah berdarah",
+                    "value" : "p2",
+                    "isChecked": false
+                },
+                {
+                    "gejala" : "mudah lelah",
+                    "value" : "p2",
+                    "isChecked": false
+                },
+                {
+                    "gejala" : "dada serasa terbakar",
+                    "value" : "p2",
+                    "isChecked": false
+                }
+            ]
+
+
+        } 
+        
+    }
+]

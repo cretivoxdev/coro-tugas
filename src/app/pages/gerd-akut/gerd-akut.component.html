@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Gerd Akut
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <form [formGroup]="form">
+    <ion-item *ngFor="let checkbox of checklistState" class="checkbox-control">
+      <ion-label>{{ checkbox.label }}</ion-label>
+      <input type="checkbox" (change)="onChecklistChange($event.target.checked, checkbox)" [checked]="checkbox.checked" [value]="checkbox.value" />
+    </ion-item>
+    <ion-button (click)="getVal()">Test</ion-button>
+  </form>
+  
+  <!-- <h1>Control Value:</h1> 
+  
+  <strong>checklist.value</strong> : {{ checklist.value | json }} -->
+  
+  
+  <!-- <br>
+  <h1>Form Value:</h1> 
+  
+  {{ form.value | json }} -->
+  
+</ion-content>

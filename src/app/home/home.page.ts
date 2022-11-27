@@ -9,4 +9,16 @@ export class HomePage {
 
   constructor() {}
 
+  list = [
+    {
+      "name": "test",
+      "value": "asdasdas"
+    },
+    {
+      "name": "asdasdas",
+      "value": "asdasdas"
+    },
+  ]
+
+
 }

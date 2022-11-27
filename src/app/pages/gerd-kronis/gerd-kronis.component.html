@@ -1,0 +1,71 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Gerd Kronis
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <!-- <div class="" *ngFor="let item of list">
+    <p>{{item.name}}</p>
+  </div> -->
+
+  <form [formGroup]="form">
+    <ion-list>
+      <ion-item>
+        <ion-label>Tubuh Lemas</ion-label>
+        <ion-checkbox formControlName="tubuh_lemas" [(ngModel)]="val1"></ion-checkbox>
+      </ion-item>
+      <ion-item>
+        <ion-label>Sakit Perut</ion-label>
+        <ion-checkbox formControlName="sakit_perut" [(ngModel)]="val2"></ion-checkbox>
+      </ion-item>
+      <ion-item>
+        <ion-label>Bab Berdarah</ion-label>
+        <ion-checkbox formControlName="bab_berdarah" [(ngModel)]="val3"></ion-checkbox>
+      </ion-item>
+      <ion-item>
+        <ion-label>Muntah Berdarah</ion-label>
+        <ion-checkbox formControlName="muntah_berdarah" [(ngModel)]="val4"></ion-checkbox>
+      </ion-item>
+      <ion-item>
+        <ion-label>Mudah Lelah</ion-label>
+        <ion-checkbox formControlName="mudah_lelah" [(ngModel)]="val5"></ion-checkbox>
+      </ion-item>
+      <ion-item>
+        <ion-label>Dada Serasa Terkabar</ion-label>
+        <ion-checkbox formControlName="dada_serasa_terbakar" [(ngModel)]="val6"></ion-checkbox>
+      </ion-item>
+      <ion-item>
+        <ion-label>Mual</ion-label>
+        <ion-checkbox formControlName="mual" [(ngModel)]="val7"></ion-checkbox>
+      </ion-item>
+      <ion-item>
+        <ion-label>Sering Sendawa</ion-label>
+        <ion-checkbox formControlName="sering_sendawa" [(ngModel)]="val8"></ion-checkbox>
+      </ion-item>
+      <ion-item>
+        <ion-label>Nafsu Makan Menurut</ion-label>
+        <ion-checkbox formControlName="nafsu_makan_menurun" [(ngModel)]="val9"></ion-checkbox>
+      </ion-item>
+      <ion-item>
+        <ion-label>Rasa Mengganjal Di Tenggorokan</ion-label>
+        <ion-checkbox formControlName="rasa_mengganjal" [(ngModel)]="val10"></ion-checkbox>
+      </ion-item>
+      <ion-item>
+        <ion-label>Muntah</ion-label>
+        <ion-checkbox formControlName="muntah" [(ngModel)]="val11"></ion-checkbox>
+      </ion-item>
+      <ion-item>
+        <ion-label>Kembung</ion-label>
+        <ion-checkbox formControlName="kembung" [(ngModel)]="val12"></ion-checkbox>
+      </ion-item>
+    </ion-list>
+    <ion-button (click)="getValue()">get</ion-button>
+  </form>
+
+</ion-content>
